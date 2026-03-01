@@ -1,4 +1,4 @@
-import time
+limport time
 import dash_bootstrap_components as dbc
 import numpy as np
 import pandas as pd
@@ -119,7 +119,7 @@ def _resolve_cik_from_ticker(ticker):
     try:
         cik_lookup = requests.get(
             "https://www.sec.gov/files/company_tickers.json",
-            headers={"User-Agent": "erict1034@gmail.com.com"},
+            headers={"User-Agent": "email@email.com"},
             timeout=15,
         ).json()
     except Exception as exc:
