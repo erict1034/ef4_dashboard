@@ -4,9 +4,9 @@
 
 <h3>Add your email address to the ef4_pull_dash.py file in two places</h3>
 
-<h5>Line 14:</h5>  set_identity("email@email.com")
+<b>Line 14:</b>  set_identity("email@email.com")
 <nbsp></nbsp>
-<h5>Line 122:</5>  headers={"User-Agent": "email@email.com"},
+<b>Line 122:</b>  headers={"User-Agent": "email@email.com"},
 
 <h3>Running the application.</h3>
 
